@@ -1,0 +1,42 @@
+#info {
+    
+    background: #263c3c;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.info-oil {
+    margin: 20px;
+}
+
+.info-oil img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+
+
+@media (min-width:480px){
+    
+    .info-oil {
+        width: 40%;
+    }
+}
+
+
+@media (min-width:1024px){
+    
+    .info-oil {
+        width: auto;
+    }
+}
